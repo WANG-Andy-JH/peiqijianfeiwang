@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!
+1.项目名称：宿舍官网
+2.创建时间：2018年10月30日
+3.创建者：王谨鸿
+4.说明:网页放大正常，缩小照片区域异常（仍未解决）
+5.最近更新2018年11月17日
+6.更新日志：点击照片可以上传不用单独点击按钮
+7.Safari浏览器、QQ浏览器兼容、IE未知、手机浏览器兼容
+>
+<head>
+    <title>Sign up</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/common.css">
+</head>
+<body>
+<div class="wholebackground">
+    <div class="title">Sign up</div>
+    <div class="ballonright"></div>
+    <div class="ballonleft"></div>
+    <div class="public-container"></div>
+    <div class="public-container index-panel ">
+        <div class="signup"></div>
+    </div>
+    <div class="public-container ">
+        <form method="post" action="save.php">
+            <div class="clearfloatOptionValue1 WriteDown">姓名：<input type = "text"></div>
+            <div class="clearfloatOptionValue1 WriteDown">性别：<input type = "text"></div>
+        </form>
+    </div>
+    <div class="public-reference ">
+        <form method="post" action="save.php">
+            <div class="clearfloatOptionValue2 WriteDown2">专业：<input type = "text"></div>
+            <div class="clearfloatOptionValue2 WriteDown2">班级：<input type = "text"></div>
+        </form>
+    </div>
+    <div class="public-reference ">
+        <form method="post" action="save.php">
+            <div class="tel WriteDown3">电话：<input type = "tel" size="70px"></div>
+        </form>
+    </div>
+    <div class="public-reference ">
+        <form method="post" action="save.php">
+            <div class="clearfloatOptionValue3 WriteDown">床位：
+                <select>
+                    <option value = "请选择">请选择</option> selected = "selected"
+                    <option value = "No.1">No.1</option>
+                    <option value = "No.2">No.2</option>
+                    <option value = "No.3">No.3</option>
+                    <option value = "No.4">No.4</option>
+                    <option value = "No.5">No.5</option>
+                    <option value = "No.6">No.6</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div class="public-reference ">
+            <div class="clearfloatOptionValue4 WriteDown4">
+                <textarea cols="10" rows="10" style="width: 770px ;height: 110px">
+            </textarea>
+            </div>
+    </div>
+    <div class="public-reference ">
+    <div class="reason">填报理由</div>
+    </div>
+    <div class="public-reference">
+        <div class="photo"></div>
+    </div>
+
+    <div class="public-reference">
+            <input type="file" style="opacity: 0;" class="photo" >
+    </div>
+    <!利用第一个photo不透明第二个透明的上传文件按钮覆盖第一张图片方式将photocss图片变成一个按钮>
+    <div class="public-reference">
+        <div class="upload" uploadphoto>
+        请选取照片上传
+        </div>
+    </div>
+    <div class="submit"><input type="submit" value="完成" class="button">
+    </div>
+</div>
+</body>
+

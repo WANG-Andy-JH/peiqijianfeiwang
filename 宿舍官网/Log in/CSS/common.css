@@ -1,0 +1,129 @@
+*{
+    font-family: "Avenir", serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height:46px;
+    border-radius:28px;
+    color:black;
+    border-color: white;
+    mso-font-info-type: auto;
+}
+
+.wholebackground{
+    background-image: url("../Images/Sierra 2.jpg");
+    background-repeat: no-repeat;
+    width: 2180x;
+    height: 1280px;
+    margin-right: -20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius:0px;
+    position: relative;
+}
+
+body{
+    height: 1280px;
+    width: 1920px;
+}
+
+.public-container{
+    position: absolute;
+    width :920px;
+    height: 660px;
+    background-image: url("../Images/报名入口设计稿_0000s_0000_边框.png");
+    margin-top: 210px;
+    margin-left: 500px;
+    border-radius:0px;
+}
+
+.public-reference{
+    position: absolute;
+    width :920px;
+    height: 1px;
+    top: 220px;
+    margin-left: 520px;
+    border-radius:0px;
+    font-size: 200px;
+}
+
+.signin{
+    background: purple;
+    position: relative;
+    width: 920px;
+    height: 660px;
+    opacity: 0.3;
+    border-radius:0px;
+}
+.clearfloatOptionValue1{
+    position: relative;
+    display:inline;
+    margin-top: 250px;
+    margin-left: 120px;
+    float: left;
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+}
+
+.clearfloatOptionValue2{
+    position: relative;
+    display:inline;
+    margin:0 auto;
+    margin-top: 80px;
+    margin-left: -1px;
+    float: left;
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+}
+
+.title{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 78px;
+    font-style:italic;
+    font-size: 60px;
+    color: white;
+}
+.ballonright{
+    position: absolute;
+    background-image: url("../Images/报名入口设计稿_0001s_0001_气球右.png");
+    width: 1920px;
+    height: 1080px;
+    margin-left: 30px;
+
+}
+.ballonleft{
+    position: absolute;
+    background-image: url("../Images/报名入口设计稿_0001s_0000_气球左.png");
+    width: 1920px;
+    height: 1080px;
+    margin-left: 0px;
+}
+
+
+.thesubmit{
+    position: absolute;
+    top: 1000px;
+    left: 900px;
+    width: 100px;
+}
+
+.button{
+    width:100px;height:30px;line-height:18px;border:0;margin:4px 0 0 10px;
+    background:url(../Images/报名入口设计稿_0000s_0004s_0001_按钮.png);
+    border-radius:0px;
+    font-size: 20px;
+    margin-left: 260px;
+}
+
+.log{
+    position: absolute;
+    top: -180px;
+    height: 150px;
+    width: 620px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 80px;
+
+}

@@ -1,0 +1,178 @@
+*{
+    font-family: "Avenir", serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height:46px;
+    border-radius:0px;
+    color:black;
+    border-color: white;
+    mso-font-info-type: auto;
+}
+
+.wholebackground{
+    background-image: url("../Images/Hawaiian Print.jpg");
+    width: 2080px;
+    height: 1280px;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: absolute;
+    border-radius:0px;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+
+}
+
+.signup{
+    width: 91px;
+    height: 87px;
+    background-image: url("../Images/Sign up.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1770px;
+}
+
+.login{
+    width: 91px;
+    height: 87px;
+    background-image: url("../Images/Log in.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1680px;
+}
+
+.topborder{
+    margin-top: 0px;
+    height: 110px;
+    background-color: darkslategray;
+    opacity: 1;
+
+}
+.topbordertext1{
+    background-image: url("../Images/titile.png");
+    background-repeat: no-repeat;
+    height: 87px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.topbordertext2{
+    position: relative;
+    display:inline;
+    margin-top: 20px;
+    margin-left: 220px;
+    float: left;
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+}
+
+.reference{
+    height: 0px;
+    width: 1px;
+    position: absolute;
+}
+
+.floatbox1{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius:24px;
+    display: inline;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 110px;
+    background-color: aqua;
+    opacity: 0.9;
+    overflow: hidden;
+    background-image: url("../Images/盛华之影的small.png");
+}
+
+.floatbox2{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius:24px;
+    display: inline;
+    position: relative;
+    margin-left: 770px;
+    margin-top: 110px;
+    background-color: aqua;
+    opacity: 0.9;
+    overflow: hidden;
+    background-image: url("../Images/Sierra的small.jpg");
+}
+
+.floatbox3{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius:24px;
+    display: inline;
+    position: relative;
+    margin-left: 1420px;
+    margin-top: 110px;
+    background-color: aqua;
+    opacity: 0.9;
+    background-image: url("../Images/Mojave Night的small.jpg");
+}
+
+.floatbox4{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius:24px;
+    display: inline;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 520px;
+    background-color: aqua;
+    opacity: 0.9;
+    overflow: hidden;
+    background-image: url("../Images/Abstract 1.jpg");
+}
+
+.floatbox5{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius:24px;
+    display: inline;
+    position: relative;
+    margin-left: 770px;
+    margin-top: 520px;
+    background-color: aqua;
+    opacity: 0.9;
+    overflow: hidden;
+    background-image: url("../Images/Ink Cloud.jpg");
+}
+
+.floatbox6{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius:24px;
+    display: inline;
+    position: relative;
+    margin-left: 1420px;
+    margin-top: 520px;
+    background-color: aqua;
+    opacity: 0.9;
+    overflow: hidden;
+    background-image: url("../Images/Desert 3.jpg");
+}
+
+.bottomborder{
+    margin-bottom: 0px;
+    height: 120px;
+    background: darkslategray;
+
+}
+
+

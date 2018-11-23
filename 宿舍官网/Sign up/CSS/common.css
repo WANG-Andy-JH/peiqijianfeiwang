@@ -1,0 +1,194 @@
+*{
+    font-family: "Avenir", serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height:46px;
+    border-radius:28px;
+    color:black;
+    border-color: white;
+    mso-font-info-type: auto;
+}
+
+.wholebackground{
+    background-image: url("../Images/Sierra 2.jpg");
+    background-repeat: no-repeat;
+    width: 2180x;
+    height: 1280px;
+    margin-right: -20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius:0px;
+    position: relative;
+}
+
+body{
+    height: 1280px;
+    width: 1920px;
+}
+
+
+.public-container{
+    position: absolute;
+    width :920px;
+    height: 660px;
+    background-image: url("../Images/报名入口设计稿_0000s_0000_边框.png");
+    margin-top: 210px;
+    margin-left: 500px;
+    border-radius:0px;
+}
+
+.public-reference{
+    position: absolute;
+    width :920px;
+    height: 1px;
+    margin-top: 210px;
+    margin-left: 500px;
+    border-radius:0px;
+}
+.signup{
+    background: purple;
+    position: relative;
+    width: 920px;
+    height: 660px;
+    opacity: 0.3;
+    border-radius:0px;
+}
+.clearfloatOptionValue1{
+    position: relative;
+    display:inline;
+    margin-top: 88px;
+    margin-left: 80px;
+    float: left;
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+}
+.clearfloatOptionValue2{
+    position: relative;
+    display:inline;
+    margin-top: 168px;
+    margin-left: 80px;
+    float: left;
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+}
+.clearfloatOptionValue3 {
+    position: relative;
+    display: inline;
+    margin-top: 328px;
+    margin-left: 80px;
+    float: left;
+    color: black;
+    font-size: 24px;
+}
+
+.clearfloatOptionValue4 {
+    position: relative;
+    margin-top: 442px;
+    margin-left: 72px;
+    float: left;
+    width:782px;/*设定宽度*/ height:110px;/*设置高度*/
+    border-radius:28px;
+    color:black;
+    outline: 0;
+}
+.reason{
+position: relative;
+margin-left: 430px;
+margin-top: 400px;
+}
+
+.title{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 78px;
+    font-style:italic;
+    font-size: 60px;
+    color: white;
+}
+.ballonright{
+    position: absolute;
+    background-image: url("../Images/报名入口设计稿_0001s_0001_气球右.png");
+    width: 1920px;
+    height: 1080px;
+    margin-left: 30px;
+
+}
+.ballonleft{
+    position: absolute;
+    background-image: url("../Images/报名入口设计稿_0001s_0000_气球左.png");
+    width: 1920px;
+    height: 1080px;
+    margin-left: 0px;
+}
+.photo{
+    width: 140px;
+    height: 170px;
+    border: white 1px solid;
+    position: relative;
+    margin-top: 82px;
+    margin-left: 662px;
+    padding-top: 10px;
+    background-image: url("../Images/报名入口设计稿_0000s_0002s_0000_头像.png") ;
+    background-color: ghostwhite;
+    background-repeat:no-repeat;
+    opacity: 1;
+    <!顺序很重要>
+}
+
+.tel{
+    position: relative;
+    display:inline;
+    margin-top: 248px;
+    margin-left: 80px;
+    float: left;
+    color: black;
+    opacity: 1;
+    font-size: 24px;
+}
+
+select {
+/ / 清除select的边框样式 border: none;
+/ / 清除select聚焦时候的边框颜色 outline: none;
+/ / 将select的宽高等于div的宽高 width: 100 %;
+    height: 55px;
+    line-height: 55px;
+    width: 300px;
+    margin: 0 auto;
+/ / 隐藏select的下拉图标 appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: center;
+/ / 通过padding-left的值让文字居中
+/ /使用伪类给select添加自己想用的图标
+      content: "";
+      background: url(../Images/报名入口设计稿_0000s_0001s_0002_下拉箭头.png) no-repeat 240px ;
+  //通过定位将图标放在合适的位置no-repeat x px;
+  position: relative;
+    pacity: 1;
+  //给自定义的图标实现点击下来功能
+  pointer-events: none;
+    background-color: ghostwhite;
+  }
+
+.upload {
+    position: relative;
+    margin-top: 272px;
+    margin-left: 672px;
+    color: black;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 900px;
+    width: 100px;
+}
+
+.button{
+    width:100px;height:30px;line-height:18px;border:0;margin:4px 0 0 10px;
+    background:url(../Images/报名入口设计稿_0000s_0004s_0001_按钮.png);
+    border-radius:0px;
+    font-size: 20px;
+}
